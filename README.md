@@ -61,5 +61,3 @@ This is a personal project used to explore React State and API integration. If y
 ## 📄 License
 
 This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
-```
-
