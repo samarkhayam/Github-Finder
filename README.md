@@ -1,16 +1,28 @@
-# React + Vite
+# 🔍 GitHub Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast and responsive GitHub Profile searcher built with **React** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+![GitHub Finder Preview](https://via.placeholder.com/800x400?text=GitHub+Finder+Preview)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Real-time Search:** Instantly fetch user data from the GitHub REST API.
+- **Responsive Design:** Optimized for mobile, tablet, and desktop views using Tailwind CSS.
+- **Dynamic Stats:** View repository counts, followers, following, and public gists at a glance.
+- **Smart UI:** 
+  - Conditional rendering handles missing user data (e.g., hidden icons for missing location/company).
+  - Clean "Loading" states and error handling for invalid usernames.
+  - Profile links that open directly in a new tab.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** React.js (Vite)
+- **Styling:** Tailwind CSS
+- **Icons:** FontAwesome
+- **API:** GitHub REST API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/github-finder.git](https://github.com/your-username/github-finder.git)
