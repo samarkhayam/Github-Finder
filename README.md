@@ -1,8 +1,9 @@
+
 # 🔍 GitHub Finder
 
 A fast, responsive GitHub Profile search engine built with **React** and **Tailwind CSS**.
 
-![GitHub Finder Preview](https://via.placeholder.com/800x400?text=GitHub+Finder+Dashboard)
+![GitHub Finder Preview](github.png)
 
 ## ✨ Features
 
@@ -26,3 +27,45 @@ A fast, responsive GitHub Profile search engine built with **React** and **Tailw
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/samarkhayam/Github-Finder.git](https://github.com/samarkhayam/Github-Finder.git)
+   ```
+
+2. **Navigate to the project folder:**
+   ```bash
+   cd Github-Finder
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+## 📸 Responsive UI Logic
+
+- **Desktop (`md:`):** Maximum width of 748px (`max-w-[748px]`), centered using `m-auto`.
+- **Mobile:** Elements switch from `flex-row` to `flex-col` to maintain readability. Stats use `flex-1` to grow and shrink equally as the viewport changes.
+
+## 🚧 Known Fixes & Configurations
+
+- **Smart App Control:** If running on Windows, ensure the project directory is added to your Antivirus/Windows Security exclusions to prevent the `tailwindcss-oxide` binary from being blocked.
+- **Height Fix:** Uses `min-h-screen` instead of `h-screen` to prevent white space appearing at the bottom of the page when scrolling on mobile.
+
+## 🤝 Contributing
+
+This is a personal project used to explore React State and API integration. If you have suggestions for improvements (like adding a "Top Repos" list), feel free to open an issue or submit a pull request!
+
+## 📄 License
+
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+```
+
+---
+
+### Description for GitHub "About" Section:
+> A sleek React + Tailwind CSS dashboard that uses the GitHub API to find and display developer profiles. Features responsive stats, conditional UI rendering, and a clean dark-mode design.
+
+**One final tip:** Since your repo URL is `samarkhayam/Github-Finder`, you can actually enable **GitHub Pages** in the repository settings to host this live for free! Since it's a Vite project, you just need a small `gh-pages` deploy script. Would you like to set that up next so you can share a live link?
