@@ -112,33 +112,33 @@ function App() {
               </div>
             </div>
 
-            <div className="add flex flex-col sm:flex-row w-full gap-1 sm:gap-4 mt-5 sm:mt-15">
-              <div className="bg-[#0d1117] text-center flex-1 p-2.5 min-w-25 rounded-md">
+            <div className="flex flex-wrap gap-1 sm:gap-4 mt-5 sm:mt-15">
+              <div className="bg-[#0d1117] text-center p-2.5 rounded-md flex-1 min-w-[calc(50%-4px)] sm:min-w-0">
                 <p className="text-xl font-medium text-[#e6edf3]">
-                  {user && user.public_repos}{" "}
+                  {user.public_repos}
                 </p>
-                <p className=" text-[14px]">REPOS</p>
+                <p className="text-[14px]">REPOS</p>
               </div>
 
-              <div className="bg-[#0d1117] text-center flex-1 p-2.5 min-w-25 rounded-md">
+              <div className="bg-[#0d1117] text-center p-2.5 rounded-md flex-1 min-w-[calc(50%-4px)] sm:min-w-0">
                 <p className="text-xl font-medium text-[#e6edf3]">
-                  {user && user.followers}{" "}
+                  {user.followers}
                 </p>
-                <p className=" text-[14px]">FOLLOWERS</p>
+                <p className="text-[14px]">FOLLOWERS</p>
               </div>
 
-              <div className="bg-[#0d1117] text-center flex-1 p-2.5 min-w-25 rounded-md">
+              <div className="bg-[#0d1117] text-center p-2.5 rounded-md flex-1 min-w-[calc(50%-4px)] sm:min-w-0">
                 <p className="text-xl font-medium text-[#e6edf3]">
-                  {user && user.following}{" "}
+                  {user.following}
                 </p>
-                <p className=" text-[14px]">FOLLOWING</p>
+                <p className="text-[14px]">FOLLOWING</p>
               </div>
 
-              <div className="bg-[#0d1117] text-center flex-1 p-2.5 min-w-25 rounded-md">
+              <div className="bg-[#0d1117] text-center p-2.5 rounded-md flex-1 min-w-[calc(50%-4px)] sm:min-w-0">
                 <p className="text-xl font-medium text-[#e6edf3]">
-                  {user && user.public_gists}{" "}
+                  {user.public_gists}
                 </p>
-                <p className=" text-[14px]">GISTS</p>
+                <p className="text-[14px]">GISTS</p>
               </div>
             </div>
 
@@ -179,7 +179,6 @@ function App() {
           </div>
         ) : isLoading ? (
           <div className="flex flex-col items-center justify-center mt-20">
-            
             <div className="h-10 w-10 animate-spin rounded-full border-4 border-[#30363d] border-t-[#238636]"></div>
             <p className="text-[#8b949e] mt-4 animate-pulse">Searching...</p>
           </div>
