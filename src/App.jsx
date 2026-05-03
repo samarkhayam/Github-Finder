@@ -20,8 +20,11 @@ function App() {
       setuser(data)
       let response2 = await fetch(`https://api.github.com/users/${userName}/repos?sort=stars&per_page=6`);
       let data2 = await response2.json();
-      setRepos(data2)
-      console.log(data2)
+      if(response2.ok){
+        setRepos(data2)
+        
+      }
+      
     }else{
       alert(`${userName} is not found!`)
     }
@@ -29,7 +32,7 @@ function App() {
     setisLoading(false)
     
 
-    console.log(data)
+    
 
   }
   
