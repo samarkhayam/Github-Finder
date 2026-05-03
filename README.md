@@ -26,7 +26,7 @@ A fast, responsive GitHub Profile search engine built with **React** and **Tailw
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/samarkhayam/Github-Finder.git](https://github.com/samarkhayam/Github-Finder.git)
+   git clone https://github.com/samarkhayam/Github-Finder.git
    ```
 
 2. **Navigate to the project folder:**
