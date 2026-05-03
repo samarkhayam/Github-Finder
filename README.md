@@ -1,28 +1,28 @@
 # 🔍 GitHub Finder
 
-A fast and responsive GitHub Profile searcher built with **React** and **Tailwind CSS**.
+A fast, responsive GitHub Profile search engine built with **React** and **Tailwind CSS**.
 
-![GitHub Finder Preview](https://via.placeholder.com/800x400?text=GitHub+Finder+Preview)
+![GitHub Finder Preview](https://via.placeholder.com/800x400?text=GitHub+Finder+Dashboard)
 
 ## ✨ Features
 
-- **Real-time Search:** Instantly fetch user data from the GitHub REST API.
-- **Responsive Design:** Optimized for mobile, tablet, and desktop views using Tailwind CSS.
-- **Dynamic Stats:** View repository counts, followers, following, and public gists at a glance.
-- **Smart UI:** 
-  - Conditional rendering handles missing user data (e.g., hidden icons for missing location/company).
-  - Clean "Loading" states and error handling for invalid usernames.
-  - Profile links that open directly in a new tab.
+- **Real-time User Search:** Fetches detailed developer data via the GitHub REST API.
+- **Dynamic Stats Grid:** Displays Public Repos, Followers, Following, and Gists in a layout that adapts from a 2x2 grid on mobile to a seamless row on desktop.
+- **Intelligent Conditional Rendering:** 
+  - Icons and text for Location, Company, and Bio only appear if the user has provided that information.
+  - Image handling prevents "broken link" icons when avatars are loading or missing.
+- **GitHub Aesthetic:** Modern dark-mode UI styled with Tailwind CSS, featuring GitHub's signature green (`#238636`) and dark (`#0d1117`) color palette.
+- **Performance Optimized:** Uses `min-h-screen` and Flexbox to ensure a consistent background and layout across all device sizes.
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js (Vite)
-- **Styling:** Tailwind CSS
-- **Icons:** FontAwesome
-- **API:** GitHub REST API
+- **Frontend:** [React.js](https://reactjs.org/) (Vite)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Icons:** [FontAwesome](https://fontawesome.com/)
+- **API:** [GitHub REST API](https://docs.github.com/en/rest)
 
 ## ⚙️ Installation & Setup
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/github-finder.git](https://github.com/your-username/github-finder.git)
+   git clone [https://github.com/samarkhayam/Github-Finder.git](https://github.com/samarkhayam/Github-Finder.git)
