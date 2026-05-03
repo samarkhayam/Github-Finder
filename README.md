@@ -63,9 +63,3 @@ This is a personal project used to explore React State and API integration. If y
 This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 ```
 
----
-
-### Description for GitHub "About" Section:
-> A sleek React + Tailwind CSS dashboard that uses the GitHub API to find and display developer profiles. Features responsive stats, conditional UI rendering, and a clean dark-mode design.
-
-**One final tip:** Since your repo URL is `samarkhayam/Github-Finder`, you can actually enable **GitHub Pages** in the repository settings to host this live for free! Since it's a Vite project, you just need a small `gh-pages` deploy script. Would you like to set that up next so you can share a live link?
